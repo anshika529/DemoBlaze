@@ -5,8 +5,9 @@
     <classes>
       <class name="com.atmecs.demoblaze.testscripts.LoginTest">
         <methods>
-          <include name="settingAndLaunchingDriver"/>
-          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="Login"/>
+          <include name="invokeBrowser"/>
         </methods>
       </class> <!-- com.atmecs.demoblaze.testscripts.LoginTest -->
     </classes>

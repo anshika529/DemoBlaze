@@ -1,41 +1,15 @@
 package com.atmecs.demoblaze.testscripts;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AddtocartTest {
-	Properties Locators;
-	Properties Data;
-	WebDriver driver;
+import com.atmecs.demoblaze.testsuit.Base;
 
-	@BeforeMethod
-	public void settingAndLaunchingDriver() throws IOException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\anshika.negi\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();
-
-		FileInputStream locator = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\Locators\\DemoBlaze.properties");
-		Locators = new Properties();
-		Locators.load(locator);
-		FileInputStream data = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\Data\\DemoBlaze.properties");
-		Data = new Properties();
-		Data.load(data);
-		
-		driver.get(Locators.getProperty("url"));
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	}
-
+public class AddtocartTest extends Base {
 	@Test(priority = 4)
 	public void addtoCart() throws InterruptedException {
 		

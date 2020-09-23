@@ -1,105 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60784" started-at="2020-09-22T04:21:14Z" finished-at="2020-09-22T04:22:14Z">
+  <suite name="Default suite" duration-ms="11370" started-at="2020-09-23T07:25:12Z" finished-at="2020-09-23T07:25:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60784" started-at="2020-09-22T04:21:14Z" finished-at="2020-09-22T04:22:14Z">
-      <class name="com.atmecs.demoblaze.testscripts.AddtocartTest">
-        <test-method status="PASS" signature="settingAndLaunchingDriver()[pri:0, instance:com.atmecs.demoblaze.testscripts.AddtocartTest@3ffc5af1]" name="settingAndLaunchingDriver" is-config="true" duration-ms="9423" started-at="2020-09-22T04:21:52Z" finished-at="2020-09-22T04:22:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingAndLaunchingDriver -->
-        <test-method status="PASS" signature="addtoCart()[pri:4, instance:com.atmecs.demoblaze.testscripts.AddtocartTest@3ffc5af1]" name="addtoCart" duration-ms="13232" started-at="2020-09-22T04:22:01Z" finished-at="2020-09-22T04:22:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtoCart -->
-      </class> <!-- com.atmecs.demoblaze.testscripts.AddtocartTest -->
-      <class name="com.atmecs.demoblaze.testscripts.ContactUsTest">
-        <test-method status="PASS" signature="settingAndLaunchingDriver()[pri:0, instance:com.atmecs.demoblaze.testscripts.ContactUsTest@5e5792a0]" name="settingAndLaunchingDriver" is-config="true" duration-ms="8104" started-at="2020-09-22T04:21:42Z" finished-at="2020-09-22T04:21:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingAndLaunchingDriver -->
-        <test-method status="PASS" signature="contact()[pri:3, instance:com.atmecs.demoblaze.testscripts.ContactUsTest@5e5792a0]" name="contact" duration-ms="1754" started-at="2020-09-22T04:21:50Z" finished-at="2020-09-22T04:21:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contact -->
-      </class> <!-- com.atmecs.demoblaze.testscripts.ContactUsTest -->
+    <test name="Default test" duration-ms="11370" started-at="2020-09-23T07:25:12Z" finished-at="2020-09-23T07:25:23Z">
       <class name="com.atmecs.demoblaze.testscripts.SignUpTest">
-        <test-method status="PASS" signature="settingAndLaunchingDriver()[pri:0, instance:com.atmecs.demoblaze.testscripts.SignUpTest@26653222]" name="settingAndLaunchingDriver" is-config="true" duration-ms="9269" started-at="2020-09-22T04:21:14Z" finished-at="2020-09-22T04:21:23Z">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.SignUpTest@3ffc5af1]" name="invokeBrowser" is-config="true" duration-ms="9693" started-at="2020-09-23T07:25:12Z" finished-at="2020-09-23T07:25:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- settingAndLaunchingDriver -->
-        <test-method status="PASS" signature="signup()[pri:1, instance:com.atmecs.demoblaze.testscripts.SignUpTest@26653222]" name="signup" duration-ms="6201" started-at="2020-09-22T04:21:23Z" finished-at="2020-09-22T04:21:29Z">
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="signup()[pri:1, instance:com.atmecs.demoblaze.testscripts.SignUpTest@3ffc5af1]" name="signup" duration-ms="657" started-at="2020-09-23T07:25:22Z" finished-at="2020-09-23T07:25:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.SignUpTest@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="981" started-at="2020-09-23T07:25:22Z" finished-at="2020-09-23T07:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.atmecs.demoblaze.testscripts.SignUpTest -->
-      <class name="com.atmecs.demoblaze.testscripts.LoginTest">
-        <test-method status="PASS" signature="settingAndLaunchingDriver()[pri:0, instance:com.atmecs.demoblaze.testscripts.LoginTest@3532ec19]" name="settingAndLaunchingDriver" is-config="true" duration-ms="10095" started-at="2020-09-22T04:21:29Z" finished-at="2020-09-22T04:21:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingAndLaunchingDriver -->
-        <test-method status="FAIL" signature="login()[pri:2, instance:com.atmecs.demoblaze.testscripts.LoginTest@3532ec19]" name="login" duration-ms="2658" started-at="2020-09-22T04:21:39Z" finished-at="2020-09-22T04:21:42Z">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=85.0.4183.102): Wrong password.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-711', ip: '192.168.63.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ANSHIK~1.NEG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7b08e9107e239bac81040f7349368948]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=85.0.4183.102): Wrong password.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATMECSINLT-711', ip: '192.168.63.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ANSHIK~1.NEG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7b08e9107e239bac81040f7349368948
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.atmecs.demoblaze.testscripts.LoginTest.login(LoginTest.java:48)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- com.atmecs.demoblaze.testscripts.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
