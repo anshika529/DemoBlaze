@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.demoblaze.testscripts.LoginTest">
+      <class name="com.atmecs.demoblaze.testscripts.AddtocartTest">
         <methods>
           <include name="closeBrowser"/>
-          <include name="Login"/>
+          <include name="addtoCart"/>
           <include name="invokeBrowser"/>
         </methods>
-      </class> <!-- com.atmecs.demoblaze.testscripts.LoginTest -->
+      </class> <!-- com.atmecs.demoblaze.testscripts.AddtocartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

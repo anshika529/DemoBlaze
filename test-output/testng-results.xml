@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11370" started-at="2020-09-23T07:25:12Z" finished-at="2020-09-23T07:25:23Z">
+  <suite name="Suite" duration-ms="60406" started-at="2020-09-24T11:31:12Z" finished-at="2020-09-24T11:32:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11370" started-at="2020-09-23T07:25:12Z" finished-at="2020-09-23T07:25:23Z">
-      <class name="com.atmecs.demoblaze.testscripts.SignUpTest">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.SignUpTest@3ffc5af1]" name="invokeBrowser" is-config="true" duration-ms="9693" started-at="2020-09-23T07:25:12Z" finished-at="2020-09-23T07:25:22Z">
+    <test name="Test" duration-ms="60406" started-at="2020-09-24T11:31:12Z" finished-at="2020-09-24T11:32:12Z">
+      <class name="com.atmecs.demoblaze.testscripts.AddtocartTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.AddtocartTest@3532ec19]" name="invokeBrowser" is-config="true" duration-ms="7443" started-at="2020-09-24T11:31:53Z" finished-at="2020-09-24T11:32:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="signup()[pri:1, instance:com.atmecs.demoblaze.testscripts.SignUpTest@3ffc5af1]" name="signup" duration-ms="657" started-at="2020-09-23T07:25:22Z" finished-at="2020-09-23T07:25:22Z">
+        <test-method status="PASS" signature="addtoCart()[pri:4, instance:com.atmecs.demoblaze.testscripts.AddtocartTest@3532ec19]" name="addtoCart" duration-ms="11163" started-at="2020-09-24T11:32:01Z" finished-at="2020-09-24T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.AddtocartTest@3532ec19]" name="closeBrowser" is-config="true" duration-ms="434" started-at="2020-09-24T11:32:12Z" finished-at="2020-09-24T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.atmecs.demoblaze.testscripts.AddtocartTest -->
+      <class name="com.atmecs.demoblaze.testscripts.ContactUsTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.ContactUsTest@ae45eb6]" name="invokeBrowser" is-config="true" duration-ms="7866" started-at="2020-09-24T11:31:44Z" finished-at="2020-09-24T11:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="contactus()[pri:3, instance:com.atmecs.demoblaze.testscripts.ContactUsTest@ae45eb6]" name="contactus" duration-ms="949" started-at="2020-09-24T11:31:52Z" finished-at="2020-09-24T11:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactus -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.ContactUsTest@ae45eb6]" name="closeBrowser" is-config="true" duration-ms="402" started-at="2020-09-24T11:31:53Z" finished-at="2020-09-24T11:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.atmecs.demoblaze.testscripts.ContactUsTest -->
+      <class name="com.atmecs.demoblaze.testscripts.SignUpTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.SignUpTest@59f99ea]" name="invokeBrowser" is-config="true" duration-ms="9692" started-at="2020-09-24T11:31:12Z" finished-at="2020-09-24T11:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="signup()[pri:1, instance:com.atmecs.demoblaze.testscripts.SignUpTest@59f99ea]" name="signup" duration-ms="737" started-at="2020-09-24T11:31:22Z" finished-at="2020-09-24T11:31:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.SignUpTest@3ffc5af1]" name="closeBrowser" is-config="true" duration-ms="981" started-at="2020-09-23T07:25:22Z" finished-at="2020-09-23T07:25:23Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.SignUpTest@59f99ea]" name="closeBrowser" is-config="true" duration-ms="10035" started-at="2020-09-24T11:31:22Z" finished-at="2020-09-24T11:31:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.atmecs.demoblaze.testscripts.SignUpTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.atmecs.demoblaze.testscripts.LoginTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.LoginTest@68c4039c]" name="invokeBrowser" is-config="true" duration-ms="9266" started-at="2020-09-24T11:31:32Z" finished-at="2020-09-24T11:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:com.atmecs.demoblaze.testscripts.LoginTest@68c4039c]" name="Login" duration-ms="741" started-at="2020-09-24T11:31:42Z" finished-at="2020-09-24T11:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.demoblaze.testscripts.LoginTest@68c4039c]" name="closeBrowser" is-config="true" duration-ms="1628" started-at="2020-09-24T11:31:42Z" finished-at="2020-09-24T11:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.atmecs.demoblaze.testscripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,12 +1,14 @@
 package com.atmecs.demoblaze.testsuit;
 
+
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
 
 import com.atmecs.demoblaze.constants.Constants;
 import com.atmecs.demoblaze.utils.PropertyReader;
@@ -17,7 +19,7 @@ public class BaseTest {
 	String baseUrl;
 	String browser;
 
-	@BeforeTest
+	@BeforeMethod
 	public void invokeBrowser() {
 
 	properties = PropertyReader.readProperties(Constants.TestData_file);
@@ -36,7 +38,7 @@ public class BaseTest {
 	driver.manage().window().maximize();
 	}
 
-	@AfterTest
+	@AfterMethod
 	public void closeBrowser() {
 	driver.close();
 	}
