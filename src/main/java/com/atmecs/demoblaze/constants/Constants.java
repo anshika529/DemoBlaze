@@ -9,5 +9,11 @@ public class Constants {
 
 	// Locator File
 	public static final String Locator_file = "./src/test/resources/Locators/Locators.properties";
+	
+	//Excel File
+	public static final String Excel_file = "./excel/data.xlsx";
+	
+	
+	
 
 }
